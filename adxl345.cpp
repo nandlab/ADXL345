@@ -33,7 +33,7 @@ static uint8_t SquashLongIntoUint(long l) {
 	return uint8_t(l);
 }
 
-static uint8_t SquashLongIntoInt(long l) {
+static int8_t SquashLongIntoInt(long l) {
 	if (l <= INT8_MIN) {
 		l = INT8_MIN;
 	}
